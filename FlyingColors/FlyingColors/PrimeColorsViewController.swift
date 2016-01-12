@@ -49,6 +49,8 @@ class PrimeColorsViewController: UIViewController, UITableViewDataSource, UITabl
             print("spooky")
             let image : UIImage = UIImage(named: "fingerIcon")!
             cell.imageView!.image = image
+            
+            cell.contentView.layer.masksToBounds = true
         }
 
 
